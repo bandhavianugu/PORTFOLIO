@@ -1,8 +1,37 @@
 *{
     box-sizing: border-box;
   }
+  .navbar{ 
+    background: black;
+  }
+
+  .nav-link , .navbar-brand{ 
+    color: #f4f4f4; 
+    cursor: pointer;
+  }
+
+  .nav-link{ 
+    margin-right: 1em;
+  }
+
+  .nav-link:hover{ 
+    background: #f4f4f4; 
+    color: black; 
+  }
+
+  .navbar-collapse{ 
+    justify-content: flex-end;
+  }
+
+  .navbar-toggler{  
+    background:#fff;
+  }
+
+  .bg-dark{
+    background-color:#343a40
+  }
   body{
-    background-color: #EEE8AA
+    background-color: #696969
   }
   
   #video{
@@ -51,7 +80,7 @@
     position: relative;
     width: 300px;
     height: 400px;
-    background: rgba(255, 255, 255, 0.3);
+    background: #fff;
     margin: 20px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -130,7 +159,7 @@
   @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
   
   #about_me_1{
-    color:black;
+    color: white;
     font-size: 20px;
   }
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
